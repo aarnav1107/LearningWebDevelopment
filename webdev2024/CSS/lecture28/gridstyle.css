@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{
+    height: 200%;
+    width: 100%;
+    background-color:pink;
+    display:grid;
+    grid-template-columns: repeat(3,1fr );
+    grid-template-rows: repeat(4,1fr);
+    gap:0.4rem;
+    padding: 3rem;
+    border: 2px solid rgb(206, 25, 25);
+    justify-items:start ;
+
+
+
+}
+
+.item{
+   height: 60px;
+    width: 60px; 
+    background-color: rgb(118, 206, 98);
+    border: 2px solid rgb(217, 202, 202);
+    justify-self: end;
+}
