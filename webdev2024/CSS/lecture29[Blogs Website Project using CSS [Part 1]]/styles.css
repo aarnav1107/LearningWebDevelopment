@@ -60,6 +60,12 @@ a{
         grid-template-columns: repeat(2, 1fr);
     }
 }   
+@media (max-width:360px) {
+    .main_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}   
+
 
 .card_container{
     overflow: hidden;
