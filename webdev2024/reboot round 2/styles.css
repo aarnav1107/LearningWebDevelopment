@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    height: 800vh;
+    
+    /* text-align: start; */
+   background: #0F0B19;
+
+    padding: 0.1rem;
+}
+.headercontent{
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    width: Hug (270px)
+height: Hug (37px)
+gap: 24px
+
+    display: flex;
+    align-items: center;
+    /* font-size: rem; */
+    font-weight: bold;
+   
+    text-decoration:none ;
+    gap: 0.625rem;
+}
+.nav{
+    display: flex;
+    gap: 46px;
+    padding: 0 80px;
+    text color: white;
+}
+.nav-link{
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: aliceblue;
+}
+.nav-linkhome{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: aliceblue;
+text-shadow: 2px 2px #ff0000;
+}
+
+.main-section{
+    max-width: 1280px;
+    display: flex;
+    flex-direction:row;
+    gap: 2rem;
+    padding: 0.6rem;
+    align-items: center;
+    /* margin: 0 auto;  */
+    /* to palce content at center so thats why we have written this margin: 0 auto */
+}
+.content-left{
+    /* width: 564px;
+height: 524px; */
+top: 264px;
+left: 26px;
+gap: 30px;
+    text-align: center;
+    height: 30%;
+    width: 31%;
+}
+.left-image{
+    height:12rem;
+}
+.section-label{
+    color: white ;
+    width: Hug (551px);
+height: Hug (66px);
+gap: 12px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 300;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+width: 551px
+height: 27px
+opacity: 0.8px
+
+
+}
+.start-button{
+    width: 69px;
+height: 67px;
+padding: 19px, 116px, 19px, 116px;
+border-radius: 20px;
+gap: 30px;
+ background-color: #DF424C;
+
+}
+
+.content-right{
+      display: flex;
+    align-items: center;
+    justify-content: center; 
+}  
+
+
+.image-container{
+    border: none;
+    overflow: hidden;
+    height: 90vh;
+}
+
+.section-image{
+    height: 100%;
+    width: 100%;
+}
+/* .AboutSection{
+    
+    display: grid;
+    flex-direction: row; */
+    /* grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 0.6rem;
+    align-items: center;
+    margin: 0 auto;  */
+
+.about-image{
+    width: 50%;
+} 
+.about-right{
+    width: 65%;
+}
+.about-left{
+    width: 35%;
+}
+
+.feature-grid{
+    display: grid;
+   
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    margin-top:18rem;
+}
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    gap: 26px;
+    border: 15px;
+    background: #FFFFFF;
+    width:200px;
+    margin-left: 6rem;
+    margin-right: 5rem;
+    border-radius: 8px;
+
+
+    /* width: Hug (352px);
+    height: Fixed (505px);
+    top: 2386px;
+      left: 282px;
+    border-radius: 8px; */
+
+
+}
+.feature-card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    gap: 20px;
+    border: 15px;
+    background-color: aliceblue;
+    position: relative;
+    top:-100px;
+    width:200px;
+    border-radius: 8px;
+    margin-left:60px ;
+
+
+}
+.feature-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -100px;
+}
+.feature-info1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -100px;
+}
+
+.icon-container{
+
+    height: 10rem;
+    width: 5rem;
+    /* border-radius: 50%; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.learnmore{
+    /* width:15rem ;  */
+  height: 37px; 
+  padding: 10px 53px; 
+  border-radius: 7px;
+  gap: 10px;
+  align-items: center;
+  background: #3B63AC;
+  color: white;
+  font-size: 10px;
+
+}
+.learnmore1{
+    width: ; 
+  height: 37px; 
+  padding: 10px 53px; 
+  border-radius: 7px;
+  gap: 10px;
+  align-items: center;
+  background: #DF424C;
+  color: white;
+  font-size: 10px;
+
+
+}
+
+
+
+.redbull{
+    width: 158px;
+    height: 209px;
+    box-shadow: 0px 4px 4px 0px #00000040; 
+    position: relative;
+    top:-100px;
+}
+.redbull1{
+    width: 158px;
+    height: 209px;
+    position: relative;
+    top:-100px;
+    box-shadow: 0px 4px 4px 0px #00000040; 
+}
+.feature-title{
+    color: #414549;
+
+    /* font-weight: bold;
+    font-size: 0.9rem; */
+    font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+
+.feature-description{
+    color:  #646464;
+    font-family: Inter;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.animalsection{
+    margin-top:14rem;
+    /* position:relative; */
+}
+
+.dolphinimage{
+    height: 600px;
+    width;320px;
+    margin-left: 2rem;
+
+}
+.dolphinbutton{
+    position: absolute;
+    /* left: 50px; */
+    /* right: 60px; */
+    top: 250px;
+    right: 610px;
+}
+.mainanimal{
+    position:relative;
+}
+.dolphinbutton{
+    height: 100px;
+    width;320px;
+
+}
+.AthletesSection{
+    margin-top:10rem;
+
+}
+.Athletes{
+    display: flex;
+    margin-top:9rem;
+}
+.athletesheading{
+    color: #FFFFFF;
+    align-content: center;
+    text-align: center;
+    font-family: Inter;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0em;
+
+
+
+}
+.athletepara{
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+     font-weight: 200;
+     line-height: 22px;
+letter-spacing: 0em;
+
+}
+.feature-card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    gap: 26px;
+    border: 15px;
+    background: #FFFFFF;
+    width:200px;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    border-radius: 8px;
+}
+.learnmore2{
+    width: 10rem; 
+  height: 1.7rem; 
+  /* padding: 10px 53px;  */
+  border-radius: 7px;
+  gap: 10px;
+  align-items: center;
+  background: #DF424C;
+  color: white;
+  font-size: 10px;
+  margin-left: 10px;
+
+
+}
