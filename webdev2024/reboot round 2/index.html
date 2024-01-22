@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="styles.css">
     
 </head>
-<body>
+<body style="max-width: 100vw; overflow-x: hidden;">
     <div class="header">
         <div class="headercontent">
-           <a href="#logo" class="logo">
-            <img src="admin.png" alt="admin image" class="admin icon ">
-           </a> 
-           <a href="#union" class="logo">
-            <img src="Union.png" alt="union image" class="union image">
-            search</a>
+            <div class="admin-search">
+                <img src="./images/admin.png" alt="admin image" class="admin icon logo">
+                <div id="#union" class="search1">
+                    <img src="./images/Union.png" alt="union image" class="union-image">
+                    <p id="search-text">search</p>
+                </div>
+            </div>
+           
+            <!-- <img src="./images/SEARCH.png" alt="" class="search"> -->
 
             <nav class="nav">
                 <a href="#home" class="nav-linkhome">HOME</a>
@@ -32,17 +35,18 @@
     </div>
     <div class="main-section">
         <div class="content-left">
-            <img src="redbull.png" alt="" class="left-image">
+            <img src="./images/redbull.png" alt="" class="left-image">
             <p class="section-label">Refresh with an energy drink and go without stretch Always be the best</p>
-            <div class="button-group">
+            <!-- <div class="button-group">
                 <a href="#start" class="start-button">START</a>
                 
-            </div>
+            </div> -->
+            <button class="learnmore2">START</button>
         </div>
         <div class="content-right">
         
             <div class="image-container">
-                <img src="animal.png" alt="" class="section-image" />
+                <img src="./images/animal.png" alt="" class="section-image" />
         </div>   </div>
 
     </div>
@@ -65,50 +69,50 @@
         <div class="about-right">
         
             <div class="about-container">
-                <img src="redbull img new.png"  class="about-image" />
+                <img src="./images/redbull img new.png"  class="about-image" />
             </div> --> 
 
 
 
     </div>
 
-    <div class="AboutSection">
-        <div class="about-left">
-            <h1 class="about-title">ABOUT
-                 RED
-                  BULL</h1>
-            <p class="about-description">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud more...
-            </p>
-            <ul class="aboutlist"> 
-                <li>veniam consequat</li>
-                <li>deserunt ullamco est sit</li>
-                <li>velit officia</li>
-                <li>est sit aliqua dolor</li>
-            </ul>
-            <div>
-                <button class="get">GET NOW</button>
-                <!-- <a href="getnow" class="get">GET NOW</a> -->
+    <div class="">
+        <div class="about-section">
+            <div class="about-left">
+                <h1 class="about-title">ABOUT <span style="color: red;">RED</span> BULL</h1>
+                <div class="red-line"></div>
+                <p class="about-description">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud more...
+                </p>
+                <p>
+                    <ul class="aboutlist"> 
+                        <li>veniam consequat</li>
+                       <li>deserunt ullamco est sit</li>
+                       <li>velit officia</li>
+                       <li>est sit aliqua dolor</li>
+                   </ul>
+                </p>
+
+                <div>
+                    <button class="learnmore2">GET NOW</button>
+                    <!-- <button class="get">GET NOW</button> -->
+                    <!-- <a href="getnow" class="get">GET NOW</a> -->
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="about-container">
+                    <!-- <img src="./images/overlap image.png" class="overlap-image" alt=""> -->
+                    <img src="./images/redbull img new.png"  class="about-image" />
+                </div>
             </div>
         </div>
-        <div class="about-right">
         
-            <div class="about-container">
-                <img src="redbull img new.png"  class="about-image" />
-            </div>
-
-
-
-
-
-
-    </div>
 
     <div class="feature-grid">
         <!-- card 1 -->
         <div class="feature-card">
             <div class="icon-container">
-                <img class="redbull" src="white b.png"/>
+                <img class="redbull" src="./images/white b.png"/>
             </div>
             <div class="feature-info">
                 <div class="feature-title">
@@ -124,7 +128,7 @@
         <!-- card 2 -->
         <div class="feature-card1">
             <div class="icon-container">
-                <img class="redbull1" src="light blueb.png"/>
+                <img class="redbull1" src="./images/light blueb.png"/>
             </div>
             <div class="feature-info1">
                 <div class="feature-title">
@@ -139,7 +143,7 @@
         <!-- card 3 -->
         <div class="feature-card">
             <div class="icon-container">
-                <img class="redbull" src="darkblue bull.png"/>
+                <img class="redbull" src="./images/darkblue bull.png"/>
             </div>
             <div class="feature-info">
                 <div class="feature-title">
@@ -156,8 +160,8 @@
     </div>
     <div class="animalsection">
         <div class="mainanimal">
-            <img src="dolphin.png" alt="" class="dolphinimage">
-            <img src="dolphin button.png" alt="" class="dolphinbutton">
+            <img src="./images/dolphin.png" alt="" class="dolphinimage">
+            <img src="./images/dolphin button.png" alt="" class="dolphinbutton">
 
         </div>
 
@@ -168,14 +172,17 @@
     </div>
 
     <div class="AthletesSection">
-        <h1 class="athletesheading">ATHLETES</h1>
-        <p class="athletepara">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit</p>
+        <div class="header">
+            <h1 class="athletesheading">ATHLETES</h1>
+            <p class="athletepara">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit</p>
+        </div>
+        
         <div class="Athletes">
         
             <!-- card 1 -->
             <div class="feature-card2">
                <div class="icon-container">
-                   <img class="redbull" src="football.png"/>
+                   <img class="redbull" src="./images/football.png"/>
                </div>
                <div class="feature-info">
                    <div class="feature-title">
@@ -191,7 +198,7 @@
            <!-- card 2-->
            <div class="feature-card2">
                <div class="icon-container">
-                   <img class="redbull" src="football.png"/>
+                   <img class="redbull" src="./images/football.png"/>
                </div>
                <div class="feature-info">
                    <div class="feature-title">
@@ -207,7 +214,7 @@
            <!-- card 3-->
            <div class="feature-card2">
                <div class="icon-container">
-                   <img class="redbull" src="rugby.png"/>
+                   <img class="redbull" src="./images/rugby.png"/>
                </div>
                <div class="feature-info">
                    <div class="feature-title">
@@ -223,7 +230,7 @@
            <!-- card 4-->
            <div class="feature-card2">
                <div class="icon-container">
-                   <img class="redbull" src="RUG1.png"/>
+                   <img class="redbull" src="./images/RUG1.png"/>
                </div>
                <div class="feature-info">
                    <div class="feature-title">
@@ -239,6 +246,94 @@
    
        </div>
     </div>
+    <div class="EventsSection">
+        <div class="eventheader">
+            <h1 class="athletesheading">EVENTS</h1>
+        <p class="athletepara">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit</p>
+        </div>
+        <div class="Events">
+            <!-- card 1 -->
+            <div class="event-card">
+                <img class="event-image" src="./images/r1.png" alt="">
+            </div>
+            <!-- card 2 -->
+            <div class="event-card">
+                <img class="event-image" src="./images/r2.png" alt="">
+            </div>
+            <!-- card 3-->
+            <div class="event-card">
+                <img class="event-image" src="./images/r3.png" alt="">
+            </div>
+            <!-- card 4 -->
+            <div class="event-card">
+                <img class="event-image" src="./images/r4.png" alt="">
+            </div>
+            <!-- card 5-->
+            <div class="event-card">
+                <img class="event-image" src="./images/r5.png" alt="">
+            </div>
+            <!-- card 6 -->
+            <div class="event-card">
+                <img class="event-image" src="./images/r6.png" alt="">
+            </div>
+            <!-- card 7-->
+            <div class="event-card">
+                <img class="event-image" src="./images/r1.png" alt="">
+            </div>
+             <!-- card 7-->
+             <div class="event-card">
+                <img class="event-imagelast" src="./images/rlast.png" alt="">
+            </div>
+            <!-- card 7-->
+            <div class="event-card">
+                <img class="event-more" src="./images/more.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container">
+            <div class="social" style="margin-top:1rem;">
+                <div class="social-link" style="display: flex; justify-content: center; align-items: center; margin: 0; padding: 0; gap: 2px;">
+                    <img src="./images/facebook (1) 1.png" class="social-icon" style="margin: 0px;"/>
+                    <p>Redbull</p>
+                </div>
+                <div class="social-link" style="display: flex; justify-content: center; align-items: center; margin: 0; padding: 0; gap: 2px;">
+                    <img src="./images/Group.png" class="social-icon" style="margin: 0px;"/><p>Redbull</p>
+                </div>
+                <div class="social-link" style="display: flex; justify-content: center; align-items: center; margin: 0; padding: 0; gap: 2px;">
+                    <img src="./images/instagram 1.png" class="social-icon" style="margin: 0px;"/><p>Redbull</p>
+                </div>
+
+            </div>
+            <div class="redbull-behind">
+                <img src="./images/footer redbll.png" class="redbull-footer" alt="">
+            </div>
+            <nav class="navfooter">
+                <a href="#home" class="nav-linkfooter">HOME</a>
+                <a href="#about us" class="nav-linkfooter">ABOUT US</a>
+                <a href="#events" class="nav-linkfooter">EVENTS</a>
+                <a href="#products" class="nav-linkfooter">PRODUCTS</a>
+                <a href="#athletes" class="nav-linkfooter">ATHLETES</a>
+            </nav>
+
+            <!-- <span>
+                HOME
+            </span>
+            <span>
+                ABOUT US
+            </span>
+            <span>
+                EVENTS
+            </span>
+            <span>
+                PRODUCT
+            </span>
+            <span>
+                ATHLETES
+            </span> -->
+    </div>
+
+
 
     
 
